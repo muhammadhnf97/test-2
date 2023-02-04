@@ -46,8 +46,8 @@ export default function Main(){
             <section id='pricing' className='w-full h-fit'>
                 <div className='md:max-w-7xl md:mx-auto'>
                     <h2 className='text-lg font-semibold text-[#5a52e7] md:text-4xl '>Pilih Paket Layanan</h2>
-                    <div className='w-full flex flex-col p-5 space-y-5 md:flex-row md:space-y-0 md:p-10'>
-                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:-translate-y-1  md:text-lg'>
+                    <div className='w-full flex flex-col p-5 space-y-8 md:flex-row md:space-y-0 md:p-10'>
+                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:translate-y-2 hover:scale-105  md:text-lg'>
                             <h3 className='text-center font-semibold text-2xl text-[#6C63FF] md:text-3xl'>Tier 1 / BASIC</h3>
                             <p className='text-sm text-center italic font-semibold'>Ideal untuk Pemula</p>
                             <p className=' pb-5 text-4xl text-center font-semibold text-[#3e38a1]'>Rp. 499.000</p>
@@ -74,7 +74,7 @@ export default function Main(){
                                 <RxCross2 className='text-red-600 w-5'/><span className='flex-1'>AI Prediksi penghasilan</span>
                             </div>
                         </div>
-                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:-translate-y-1 relative md:text-lg'>
+                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:translate-y-2 hover:scale-105 relative md:text-lg'>
                             <div className='flex flex-col absolute -top-3 -left-3 w-fit justify-center text-center items-center bg-red-50 border-red-800 border-2 rounded-2xl p-1 md:-top-9 md:-left-9'>
                                 <img src='./images/best-seller.png' alt='best-seller' className='w-12' />
                                 <p className='text-red-500 text-base'>Best Seller</p>
@@ -105,7 +105,7 @@ export default function Main(){
                                 <RxCross2 className='text-red-600 w-5'/><span className='flex-1'>AI Prediksi penghasilan</span>
                             </div>
                         </div>
-                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:-translate-y-1 md:text-lg'>
+                        <div className='max-w-[21rem] h-fit mx-auto hover:shadow-lg duration-150 border border-[#6c63ff] rounded-lg p-5 text-left space-y-2 hover:border-[#5a52e7] hover:bg-[#dfddff]  hover:translate-y-2 hover:scale-105 md:text-lg'>
                             <h3 className='text-center font-semibold text-2xl text-[#6C63FF] md:text-3xl'>Tier 3 / Entrepreneur</h3>
                             <p className='text-sm text-center italic font-semibold'>Untuk bisnis besar</p>
                             <p className=' pb-5 text-4xl text-center font-semibold text-[#3e38a1]'>Rp. 1.499.000</p>

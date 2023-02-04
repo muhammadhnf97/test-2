@@ -20,9 +20,9 @@ export default function Header(){
                 <img src='/images/logo.svg' alt='logo' className='w-[4rem]'/>
                 <button><AiOutlineMenu className='w-10 h-10  rounded-lg p-1 border hover:bg-gray-50 duration-200 md:hidden' onClick={handleClickNavbar}/></button>
                 <div className="hidden h-full w-full md:flex items-center justify-end space-x-10">
-                    <a href="#about" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] hover:translate-y-2 hover:pt-[8px] text-center">About</a>
-                    <a href="#pricing" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] hover:translate-y-2 hover:pt-[8px] text-center">Pricing</a>
-                    <a href="#contact" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] hover:translate-y-2 hover:pt-[8px] text-center">Contact</a>
+                    <a href="#about" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] transition ease-in-out hover:translate-y-1 hover:scale-110 text-center">About</a>
+                    <a href="#pricing" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] transition ease-in-out hover:translate-y-1 hover:scale-110 text-center">Pricing</a>
+                    <a href="#contact" className="duration-200 text-lg hover:font-bold w-28 hover:text-[#5a52e7] transition ease-in-out hover:translate-y-1 hover:scale-110 text-center">Contact</a>
                     <button className="px-2 py-1 border-2 rounded-lg border-[#5a52e7] font-semibold md:text-lg md:py-2 md:px-5 md:border-2 md:hover:bg-[#efeeff] duration-300" onClick={handleClickModalLogin}>Login</button>
                 </div>
             </div>
@@ -31,9 +31,9 @@ export default function Header(){
         <button className='fixed w-full h-full bg-black bg-opacity-50'  onClick={handleClickNavbar}></button>
         <nav className='fixed right-0 w-72 h-full top-0 bg-white flex flex-col text-center space-y-2 py-5 md:hidden items-center px-10'>
             <button className="w-7 h-7 border p-1 rounded-md self-end hover:bg-gray-50 duration-100" onClick={handleClickNavbar}><AiOutlineClose  /></button>
-            <a href="" className="w-full py-2 hover:bg-blue-300 duration-100">About</a>
-            <a href="" className="w-full py-2 hover:bg-blue-300 duration-100">Pricing</a>
-            <a href="" className="w-full py-2 hover:bg-blue-300 duration-100">Contact</a>
+            <a href="#about" className="w-full py-2 hover:bg-blue-300 duration-100" onClick={handleClickNavbar}>About</a>
+            <a href="#pricing" className="w-full py-2 hover:bg-blue-300 duration-100" onClick={handleClickNavbar}>Pricing</a>
+            <a href="#contact" className="w-full py-2 hover:bg-blue-300 duration-100" onClick={handleClickNavbar}>Contact</a>
             <button className="w-full px-2 py-1 border-2 rounded-lg border-blue-300 bg-blue-50 font-semibold duration-100 hover:border-blue-600 hover:bg-blue-100" onClick={handleClickModalLogin}>Login</button>
         </nav>
         </>}
